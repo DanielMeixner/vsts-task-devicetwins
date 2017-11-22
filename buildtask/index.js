@@ -26,7 +26,7 @@ var updateDeviceTwinsWithPatch = function (patch, inQueryString, inResultNr) {
     console.log("################################");
     console.log("Start working on device twins ...");
     console.log("connectionString found: " + connectionString);
-    console.log("deviceQueryString found: " + queryString);
+    console.log("deviceQueryString found: " + inQueryString);
     console.log("twinPatch found: " + patch);
     console.log("deviceResultNumber found: " + inResultNr);
 
